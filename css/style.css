@@ -295,7 +295,7 @@ body{
     margin-top: 32px;
 }
 .run-img{
-    max-width: 415px;
+    max-width: 450px;
     max-height: 327px;
 }
 .run-img img{
@@ -370,6 +370,9 @@ body{
         padding: 40px 40px;
         row-gap: 40px;
     }
+    .team-head .section-title{
+        font-size: 2rem;
+    }
     .team-item img {
         width: 260px;
         height: 220px;
@@ -383,6 +386,9 @@ body{
 .footer-container{
     width: 80%;
     margin: 0 auto;
+}
+.footer-container hr{
+    border: 2px solid rgba(255, 255, 255, 0.1);
 }
 .inner-footer {
     display: grid;
