@@ -94,7 +94,89 @@
                     <button class="primary-btn">Join Now</button>
                 </div>
                 <div class="run-img">
-                    <img width="470px" height="400px" src="images/run.jpg" alt="a guy runing">
+                    <img src="images/run.jpg" alt="a guy runing">
+                </div>
+            </div>
+        </section>
+        <section class="bmi">
+            <div class="bmi-head">
+                <div class="section-title">
+                    <h3>BMI Calculator</h3>
+                </div>
+                <div class="section-des">
+                    <p>BMI (Body Mass Index) is a numerical value derived from an individual's weight and height. It is widely used to categorize a person’s weight status and assess whether they have a healthy body weight relative to their height.</p>
+                </div>
+            </div>
+            <div class="bmi-body">
+                <div class="bmi-container">
+                    <div class="bmi-item">
+                        <div class="bmi-chart">
+                            <h4>BMI Calculator Chart</h4>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>BMI</th>
+                                        <th>Weight Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Below 18.5</td>
+                                        <td>Underweight</td>
+                                    </tr>
+                                    <tr>
+                                        <td>18.5 - 24.9</td>
+                                        <td>Healthy</td>
+                                    </tr>
+                                    <tr>
+                                        <td>25.0 - 29.9</td>
+                                        <td>Overweight</td>
+                                    </tr>
+                                    <tr>
+                                        <td>30.0 - and Above</td>
+                                        <td>Obese</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="bmi-calculator">
+                            <h4>Calculate your BMI</h4>
+                            <p>A BMI (Body Mass Index) calculator is a tool used to assess whether a person has a healthy body weight for a given height. You can check your BMI right below.</p>
+                            <div class="input-item">
+                                <div class="height">
+                                    <input type="text" placeholder="Height/cm" size="10">
+                                </div>
+                                <div class="weight">
+                                    <input type="text" placeholder="Weight/kg" size="10">
+                                </div>
+                            </div>
+
+                            <div class="input-item">
+                                <div class="age">
+                                    <input type="text" placeholder="Age" size="10">
+                                </div>
+                                <div class="sex">
+                                    <select name="Sex" id="Sex">
+                                        <option value="" disabled selected>Sex</option>
+                                        <option value="Male">Male</option>
+                                        <option value="Female">Female</option>
+                                        <option value="Others">Others</option>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                            <select name="Activity" id="Activity" class="active">
+                                <option value="" disabled selected>Select an activity factor</option>
+                                <option value="Walk">Walk</option>
+                                <option value="Run">Run</option>
+                                <option value="Pushup">Pushup</option>
+                                <option value="Lazy">Lazy</option>
+                            </select>
+                            <button class="primary-btn">Calculate</button>
+
+
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
